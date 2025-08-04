@@ -16,7 +16,7 @@ export default function Home() {
         {/* ✅ Titre d'accueil */}
         <h1 className="text-3xl font-bold mb-4">Bienvenue, je suis Quentin Fontaine</h1>
         <p className="mb-6">
-          Spécialisé sur Dubai Creek Harbour, je vous accompagne dans chaque étape de votre projet immobilier à Dubaï.
+          Spécialisé sur Dubai Creek Harbour je vous accompagne dans chaque étape de votre projet immobilier à Dubaï.
         </p>
 
         {/* ✅ Liens vers les pages clés */}
