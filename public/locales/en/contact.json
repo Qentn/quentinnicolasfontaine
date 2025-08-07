@@ -45,5 +45,10 @@
   },
   "whatsapp": {
     "cta": "Contact me on WhatsApp"
-  }
+  },
+  "time": {
+  "morning": "Morning",
+  "afternoon": "Afternoon",
+  "evening": "Evening"
+}
 }

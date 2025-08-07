@@ -43,7 +43,12 @@
     "success": "Message envoyé avec succès !",
     "error": "Erreur lors de l’envoi du message."
   },
-  "whatsapp": {
+   "whatsapp": {
     "cta": "Me contacter sur WhatsApp"
+  },
+  "time": {
+    "morning": "Matin",
+    "afternoon": "Après-midi",
+    "evening": "Soir"
   }
 }
