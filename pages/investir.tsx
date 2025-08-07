@@ -1,11 +1,14 @@
 import Header from '../components/Header';
 import Image from 'next/image';
+import Link from 'next/link'; // ← Tu l'as déjà fait
+import { useRouter } from 'next/router'; // ← AJOUTER ÇA
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { GetStaticPropsContext } from 'next';
 
 export default function InvestirPage() {
   const { t } = useTranslation('investir');
+  const { locale } = useRouter(); // ← AJOUTER ÇA
 
   return (
     <>
@@ -49,12 +52,11 @@ export default function InvestirPage() {
         <section className="text-center mb-20 px-4">
           <h3 className="text-2xl font-semibold mb-4">{t('ctaTitle')}</h3>
           <p className="text-lg mb-6">{t('ctaText')}</p>
-          <a
-            href="/contact"
-            className="inline-block bg-black text-white px-8 py-3 rounded hover:bg-gray-800 transition"
-          >
-            {t('ctaButton')}
-          </a>
+          <Link href="/contact" locale={locale} legacyBehavior>
+            <a className="inline-block bg-black text-white px-8 py-3 rounded hover:bg-gray-800 transition">
+              {t('ctaButton')}
+            </a>
+          </Link>
         </section>
       </main>
     </>
