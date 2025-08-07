@@ -1,0 +1,49 @@
+{
+  "title": "Contactez-moi",
+  "warning": {
+    "title": "Important",
+    "text": "Le prénom, le nom et le numéro de téléphone (WhatsApp ou normal) sont obligatoires. Les autres informations sont facultatives, mais fortement recommandées pour que je puisse vous accompagner au mieux."
+  },
+  "selectType": "Vous êtes...",
+  "types": {
+    "buyer": "Acheteur",
+    "seller": "Vendeur",
+    "renter": "Locataire",
+    "other": "Autre"
+  },
+  "placeholders": {
+    "name": "Votre prénom *",
+    "surname": "Votre nom *",
+    "phone": "Numéro WhatsApp *",
+    "email": "Votre email (optionnel)",
+    "preferredTime": "Préférence horaire de contact",
+    "budget": "Budget approximatif (AED)",
+    "propertyType": "Type de bien (appartement, villa...)",
+    "location": "Quartiers souhaités",
+    "delivery": "Livraison",
+    "urgency": "Délai (Urgent, 3 mois...)",
+    "surface": "Surface (en m²)",
+    "price": "Prix souhaité (AED)",
+    "moveIn": "Date souhaitée d'emménagement",
+    "duration": "Durée souhaitée (6 mois, 1 an…)",
+    "message": "Message personnalisé ou précisions (optionnel)"
+  },
+  "deliveryOptions": {
+    "now": "Disponible immédiatement",
+    "offplan": "Planifié / Off-plan"
+  },
+  "furnishedOptions": {
+    "yes": "Oui",
+    "no": "Non",
+    "any": "Peu importe"
+  },
+  "submit": {
+    "sending": "Envoi en cours...",
+    "send": "Envoyer ma demande",
+    "success": "Message envoyé avec succès !",
+    "error": "Erreur lors de l’envoi du message."
+  },
+  "whatsapp": {
+    "cta": "Me contacter sur WhatsApp"
+  }
+}

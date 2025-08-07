@@ -1,0 +1,49 @@
+{
+  "title": "Contact me",
+  "warning": {
+    "title": "Important",
+    "text": "First name, last name and phone number (WhatsApp or normal) are required. Other information is optional, but highly recommended so I can assist you better."
+  },
+  "selectType": "You are...",
+  "types": {
+    "buyer": "Buyer",
+    "seller": "Seller",
+    "renter": "Renter",
+    "other": "Other"
+  },
+  "placeholders": {
+    "name": "First name *",
+    "surname": "Last name *",
+    "phone": "WhatsApp number *",
+    "email": "Your email (optional)",
+    "preferredTime": "Preferred contact time",
+    "budget": "Approximate budget (AED)",
+    "propertyType": "Property type (apartment, villa...)",
+    "location": "Preferred areas",
+    "delivery": "Delivery",
+    "urgency": "Timeline (Urgent, 3 months...)",
+    "surface": "Area (sqm)",
+    "price": "Expected price (AED)",
+    "moveIn": "Desired move-in date",
+    "duration": "Desired duration (6 months, 1 year…)",
+    "message": "Personal message or details (optional)"
+  },
+  "deliveryOptions": {
+    "now": "Available now",
+    "offplan": "Planned / Off-plan"
+  },
+  "furnishedOptions": {
+    "yes": "Yes",
+    "no": "No",
+    "any": "Doesn't matter"
+  },
+  "submit": {
+    "sending": "Sending...",
+    "send": "Send my request",
+    "success": "Message sent successfully!",
+    "error": "Error while sending message."
+  },
+  "whatsapp": {
+    "cta": "Contact me on WhatsApp"
+  }
+}

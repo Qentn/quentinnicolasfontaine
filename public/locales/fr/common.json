@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "home": "Accueil",
+    "invest": "Investir à Dubai",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Votre conseiller immobilier de confiance à Dubaï",
+    "cta": "Contactez-moi"
+  },
+  "about": {
+    "title": "À propos",
+    "p1": "Après cinq années dans l’armée de l’air française, j’ai choisi de m’installer à Dubaï pour me consacrer à l’immobilier. Je travaille aujourd’hui chez Sherwoods Property, spécialisé sur le quartier de Dubai Creek Harbour.",
+    "p2": "Que vous cherchiez à investir ou simplement à poser vos valises ici, je vous accompagne de façon simple, humaine et transparente. Mon rôle, c’est de vous aider à trouver un bien qui correspond vraiment à vos attentes, sans pression, et avec un vrai suivi du début à la fin.",
+    "p3": "J’accorde beaucoup d’importance à la confiance, à l’écoute et au relationnel : parce que l’immobilier, ce n’est pas qu’un produit — c’est un projet de vie."
+  }
+}

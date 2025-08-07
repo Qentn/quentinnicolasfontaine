@@ -1,0 +1,17 @@
+{
+  "title": "Investing in Dubai",
+  "intro": "Growth, stability, profitability: Dubai stands out as one of the most dynamic real estate markets in the world.",
+  "stats": {
+    "transactions": "+120K",
+    "transactionsLabel": "real estate transactions in 2023",
+    "value": "+430 B AED",
+    "valueLabel": "total property value exchanged",
+    "yield": "7–12%",
+    "yieldLabel": "average rental yield (depending on location)"
+  },
+  "priceEvolutionTitle": "Price evolution per m² in Dubai",
+  "source": "Source: Dubai Land Department / Estimates 2021–2025",
+  "ctaTitle": "Thinking of investing in Dubai?",
+  "ctaText": "Off-plan opportunities, guaranteed rentals, constant growth… I guide you through your project from A to Z.",
+  "ctaButton": "Request a personalized study"
+}

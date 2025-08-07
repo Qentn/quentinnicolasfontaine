@@ -1,0 +1,18 @@
+{
+
+  "menu": {
+    "home": "Home",
+    "invest": "Invest in Dubai",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Your trusted real estate advisor in Dubai",
+    "cta": "Contact me"
+  },
+  "about": {
+    "title": "About",
+    "p1": "After five years in the French Air Force, I chose to settle in Dubai to focus on real estate. I now work at Sherwoods Property, specializing in the Dubai Creek Harbour district.",
+    "p2": "Whether you're looking to invest or simply settle here, I support you in a simple, human and transparent way. My role is to help you find a property that truly meets your expectations, without pressure, and with real follow-up from start to finish.",
+    "p3": "I value trust, listening and relationships: because real estate is not just a product — it's a life project."
+  }
+}
