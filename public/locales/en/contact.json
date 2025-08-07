@@ -47,8 +47,8 @@
     "cta": "Contact me on WhatsApp"
   },
   "time": {
-  "morning": "Morning",
-  "afternoon": "Afternoon",
-  "evening": "Evening"
+  "Matin": "Morning",
+  "Après-midi": "Afternoon",
+  "Soir": "Evening"
 }
 }
