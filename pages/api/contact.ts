@@ -94,7 +94,7 @@ ${price ? `💸 Prix souhaité : ${price}\n` : ''}
 `;
 
   const mailOptions = {
-    from: `"Site Conseil Dubai" <${process.env.EMAIL_USER}>`,
+    from: `"Lead from Website" <${process.env.EMAIL_USER}>`,
     to: process.env.EMAIL_TO || process.env.EMAIL_USER,
     subject: 'Nouveau message de contact du site',
     text: mailText,
