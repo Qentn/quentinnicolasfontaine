@@ -24,7 +24,7 @@ export default function HomePage() {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <>

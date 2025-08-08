@@ -4,12 +4,12 @@ import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 
 function LanguageSwitcher() {
-  const { locales, locale, asPath } = useRouter();
+  const { locales, locale } = useRouter();
 
   return (
     <div className="flex space-x-2">
       {locales?.map((lng) => (
-        <Link key={lng} href={asPath} locale={lng}>
+        <Link key={lng} href="/" locale={lng}>
           <button
             disabled={lng === locale}
             className={`px-2 py-1 border rounded ${

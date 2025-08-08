@@ -1,14 +1,14 @@
 import Header from '../components/Header';
 import Image from 'next/image';
-import Link from 'next/link'; // ← Tu l'as déjà fait
-import { useRouter } from 'next/router'; // ← AJOUTER ÇA
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { GetStaticPropsContext } from 'next';
 
 export default function InvestirPage() {
   const { t } = useTranslation('investir');
-  const { locale } = useRouter(); // ← AJOUTER ÇA
+  const { locale } = useRouter();
 
   return (
     <>
@@ -66,7 +66,7 @@ export default function InvestirPage() {
 export async function getStaticProps({ locale }: GetStaticPropsContext) {
   return {
     props: {
-      ...(await serverSideTranslations(locale ?? 'fr', ['investir'])),
+      ...(await serverSideTranslations(locale ?? 'fr', ['common', 'investir'])),
     },
   };
 }

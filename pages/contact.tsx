@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import Header from '../components/Header';
 import { useTranslation } from 'next-i18next';
@@ -169,7 +168,7 @@ export default function ContactPage() {
 export async function getStaticProps({ locale }: GetStaticPropsContext) {
   return {
     props: {
-      ...(await serverSideTranslations(locale ?? 'fr', ['contact'])),
+      ...(await serverSideTranslations(locale ?? 'fr', ['common', 'contact'])),
     },
   };
 }
