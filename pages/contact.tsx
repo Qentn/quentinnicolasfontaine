@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import Header from '../components/Header';
 import { useTranslation } from 'next-i18next';
@@ -85,13 +86,7 @@ export default function ContactPage() {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          <select
-            name="type"
-            value={formData.type}
-            onChange={handleChange}
-            required
-            className="w-full border border-gray-300 p-3 rounded"
-          >
+          <select name="type" value={formData.type} onChange={handleChange} required className="w-full border border-gray-300 p-3 rounded">
             <option value="">{t('selectType')}</option>
             <option value="Acheteur">{t('types.buyer')}</option>
             <option value="Vendeur">{t('types.seller')}</option>
@@ -106,12 +101,11 @@ export default function ContactPage() {
 
           <select name="preferredTime" value={formData.preferredTime} onChange={handleChange} required className="w-full border border-gray-300 p-3 rounded">
             <option value="">{t('placeholders.preferredTime')}</option>
-            <option value="Matin">Matin</option>
-            <option value="Après-midi">Après-midi</option>
-            <option value="Soir">Soir</option>
+            <option value="morning">{t('time.morning')}</option>
+            <option value="afternoon">{t('time.afternoon')}</option>
+            <option value="evening">{t('time.evening')}</option>
           </select>
 
-          {/* Acheteur */}
           {formData.type === 'Acheteur' && (
             <>
               <input name="budget" placeholder={t('placeholders.budget')} value={formData.budget} onChange={handleChange} className="w-full border border-gray-300 p-3 rounded" />
@@ -126,7 +120,6 @@ export default function ContactPage() {
             </>
           )}
 
-          {/* Vendeur */}
           {formData.type === 'Vendeur' && (
             <>
               <input name="propertyType" placeholder={t('placeholders.propertyType')} value={formData.propertyType} onChange={handleChange} className="w-full border border-gray-300 p-3 rounded" />
@@ -137,16 +130,15 @@ export default function ContactPage() {
             </>
           )}
 
-          {/* Locataire */}
           {formData.type === 'Location' && (
             <>
               <input name="budget" placeholder={t('placeholders.budget')} value={formData.budget} onChange={handleChange} className="w-full border border-gray-300 p-3 rounded" />
               <input name="propertyType" placeholder={t('placeholders.propertyType')} value={formData.propertyType} onChange={handleChange} className="w-full border border-gray-300 p-3 rounded" />
               <select name="furnished" value={formData.furnished} onChange={handleChange} className="w-full border border-gray-300 p-3 rounded">
                 <option value="">{t('placeholders.furnished')}</option>
-                <option value="Oui">{t('furnishedOptions.yes')}</option>
-                <option value="Non">{t('furnishedOptions.no')}</option>
-                <option value="Peu importe">{t('furnishedOptions.any')}</option>
+                <option value="yes">{t('furnishedOptions.yes')}</option>
+                <option value="no">{t('furnishedOptions.no')}</option>
+                <option value="any">{t('furnishedOptions.any')}</option>
               </select>
               <input name="moveIn" placeholder={t('placeholders.moveIn')} value={formData.moveIn} onChange={handleChange} className="w-full border border-gray-300 p-3 rounded" />
               <input name="urgency" placeholder={t('placeholders.duration')} value={formData.urgency} onChange={handleChange} className="w-full border border-gray-300 p-3 rounded" />
@@ -165,12 +157,7 @@ export default function ContactPage() {
 
         <hr className="my-10" />
         <div className="text-center">
-          <a
-            href="https://wa.me/971552901489?text=Bonjour%20Quentin..."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-green-500 text-white px-6 py-3 text-lg rounded hover:bg-green-600"
-          >
+          <a href="https://wa.me/971552901489?text=Bonjour%20Quentin..." target="_blank" rel="noopener noreferrer" className="inline-block bg-green-500 text-white px-6 py-3 text-lg rounded hover:bg-green-600">
             {t('whatsapp.cta')}
           </a>
         </div>
