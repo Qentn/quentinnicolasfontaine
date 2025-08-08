@@ -30,7 +30,7 @@ export default function HomePage() {
     <>
       <Header />
       <main>
-        <section className="h-[70vh] mt-20 flex flex-col items-center justify-center text-center bg-white px-4">
+<section className="h-[70vh] mt-28 md:mt-20 flex flex-col items-center justify-center text-center bg-white px-4">
           <div className="mb-6">
             <Image
               src="/profile.jpg"
@@ -40,7 +40,7 @@ export default function HomePage() {
               className="rounded-full mx-auto border-4 border-white shadow-lg"
             />
           </div>
-          <h1 className="text-5xl font-bold mb-4">Quentin Nicolas Fontaine</h1>
+<h1 className="text-3xl md:text-6xl font-bold">Quentin Nicolas Fontaine</h1>
           <p className="text-2xl text-gray-700 mb-8">
             {t('hero.subtitle')}
           </p>

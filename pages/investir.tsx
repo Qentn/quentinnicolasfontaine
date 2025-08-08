@@ -13,7 +13,7 @@ export default function InvestirPage() {
   return (
     <>
       <Header />
-      <main className="bg-white text-gray-900 pt-28">
+<main className="bg-white text-gray-900 pt-32 md:pt-28">
         <h1 className="text-4xl font-bold text-center mb-4">{t('title')}</h1>
         <p className="text-center text-lg text-gray-600 mb-12 px-4">
           {t('intro')}

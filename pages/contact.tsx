@@ -75,7 +75,7 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <main className="max-w-2xl mx-auto p-6 pt-28">
+<main className="max-w-2xl mx-auto p-6 pt-32 md:pt-28">
         <h1 className="text-3xl font-bold mb-6 text-center">{t('title')}</h1>
 
         <div className="bg-yellow-50 border-l-4 border-yellow-400 text-yellow-700 p-4 rounded mb-6 text-sm">
